@@ -1104,3 +1104,592 @@
     at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\JS\node\Web\cad server\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
     at Client.login (C:\Users\gards\OneDrive\Skrivebord\JS\node\Web\cad server\node_modules\discord.js\src\client\Client.js:221:21)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31.8.2022 @ 1:43] ---------------
+[31.8.2022 @ 1:43] Server started
+[31.8.2022 @ 1:43] ---------------
+[31.8.2022 @ 1:43] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:47] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:48] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:49] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:50] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 1:57] -------------------------
+[31.8.2022 @ 1:57] server shutting down
+[31.8.2022 @ 1:57] -------------------------
+[31.8.2022 @ 12:10] ---------------
+[31.8.2022 @ 12:10] Server started
+[31.8.2022 @ 12:10] ---------------
+[31.8.2022 @ 12:10] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31.8.2022 @ 12:14] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 12:15] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 12:16] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 12:16] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 12:16] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 12:16] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 12:16] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 12:17] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 12:17] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 12:17] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 12:17] UncaugthException: Error: data and hash arguments required
+    at Object.compareSync (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\bcrypt\bcrypt.js:166:15)
+    at login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:810:28)
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:70:9)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[31.8.2022 @ 12:30] UncaugthException: ReferenceError: completed is not defined
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:75:13
+[31.8.2022 @ 12:30] UncaugthException: ReferenceError: completed is not defined
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:75:13
+[31.8.2022 @ 12:30] UncaugthException: ReferenceError: completed is not defined
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:75:13
+[31.8.2022 @ 12:30] UncaugthException: ReferenceError: completed is not defined
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:75:13
+[31.8.2022 @ 12:30] UncaugthException: ReferenceError: completed is not defined
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:75:13
+[31.8.2022 @ 12:30] UncaugthException: ReferenceError: completed is not defined
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:75:13
+[31.8.2022 @ 12:30] UncaugthException: ReferenceError: completed is not defined
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:75:13
+[31.8.2022 @ 12:30] UncaugthException: ReferenceError: completed is not defined
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:75:13
+[31.8.2022 @ 12:32] -------------------------
+[31.8.2022 @ 12:32] server shutting down
+[31.8.2022 @ 12:32] -------------------------
+[31.8.2022 @ 12:32] ---------------
+[31.8.2022 @ 12:32] Server started
+[31.8.2022 @ 12:32] ---------------
+[31.8.2022 @ 12:32] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

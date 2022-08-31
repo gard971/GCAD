@@ -1,94 +1,135 @@
+
+<div id="window">
+<link rel="stylesheet" href="index.css">
+<div id="topBar">
+<p>Log In</p>
+</div> 
+
+<div id="logoArea">
+<div style="position: absolute; top: 35px; left: 855px;">
+<canvas id="canvas" width="80" height="100">
+This browser is not compatible with HTML5 canvas. 
+</canvas>
+</div>
+<div id="section"><br />
+<p><span id="windowSpan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Windows<sup>xp</sup></span></p>
+<p id="proBottom">Professional</p>
+</div>
+
+<nav>
+<p>Copyright &#169; 1985-2001</p>
+<p>Microsoft Corporation <span id="rightSpan">Microsoft</span></p>
+</nav>
+</div> <!-- end of logoArea -->
+
+<div id="orangeBar">
+</div> <!-- end of orangeBar -->
+
 <form id="form">
-    <p id="E"></p>
-    <input id="text" placeholder="Email" type="email"><br><br>
-    <input type="submit" value="countinue" id="submit">
-    <p id="forgot" onclick="window.location.href='forgot.html'">Forgot password?</p>
+<p class="specialAlign" > Username :   <input id="username" type="text"></p>
+<p class="specialAlign" >Password:  &nbsp; <input id="password" type="password"></p>
+<button id="firstButton" type="submit">OK</button>
+<button type="button" onclick="ClearForm()">Cancel</button>
+<button type="button" onclick="window.location.href='register.html'">Register >></button>
 </form>
-<p id="new" onclick="window.location.href='register.html'">
-    Create new account
-</p>
-<p id="loginP">
-    Login MDT
-</p>
-<style>
-    #forgot{
-        color: white;
-    }
-    #forgot:hover{
-        color:blue;
-        cursor: pointer;
-    }
-    form{
-        position: absolute;
-        text-align: center;
-        top:50%;
-        left:50%;
-    }
-    html{
-        background-image:url(media/loginBackground.png);
-        background-size:100% 100%; 
-        background-repeat: no-repeat;
-    }
-    #text{
-    
-        height:5%;
-    }
-    #arrow{
-        position: relative;
-        border-radius:50%;
-        border-width:0px;
-        width:30px;
-        top:5%;
-    }
-    #arrow:hover{
-       width:29px;
-    }
-    #new{
-        position: absolute;
-        top:93%;
-        color:white;
-        font-size: 110%;
-    }
-    #new:hover{
-        font-size: 108%;
-        cursor: pointer;
-    }
-    #loginP{
-        color: white;
-        font-size:110%;
-        position: absolute;
-        left:43%;
-    }
-    #E{
-        color:red;
-        margin: 0%;
-    }
-</style>
+
+<script src="script/md5.js"></script>
 <script src="/socket.io/socket.io.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
-  <script src="script/md5.js"></script>
+<script>
+    window.addEventListener('load', eventWindowLoaded, false);
+
+function eventWindowLoaded() {
+canvasApp();
+
+}
+
+function canvasApp() {
+
+
+var theCanvas = document.getElementById("canvas");
+var context = theCanvas.getContext("2d");
+
+drawScreen();
+
+function drawScreen() {
+context.beginPath(); // top left; red
+context.strokeStyle = "#F75A14";
+context.lineWidth = 1;
+context.moveTo(12,10);
+context.quadraticCurveTo(30,5,37,13);
+context.lineTo(32, 26);
+context.quadraticCurveTo(30,22,6,22.5);
+context.lineTo(12, 10);
+context.closePath();
+context.lineWidth = 1;
+context.fillStyle = '#F75A14';
+context.fill();
+context.strokeStyle = '#F75A14';
+context.stroke();
+
+context.beginPath(); // top right; green
+context.strokeStyle = "#96C93D";
+context.lineWidth = 1;
+context.moveTo(40,14); 
+context.quadraticCurveTo(49,18,63,17);
+context.lineTo(57, 32);
+context.quadraticCurveTo(49,35,34,28);
+context.lineTo(40, 14);
+context.closePath();
+context.fillStyle = '#96C93D';
+context.fill();
+context.strokeStyle = '#96C93D';
+context.stroke();
+
+
+context.beginPath(); // bottom right; yellow
+context.strokeStyle = "#FACC13";
+context.lineWidth = 1;
+context.moveTo(33,30);
+context.quadraticCurveTo(47,37,56,35);
+context.lineTo(49, 50);
+context.quadraticCurveTo(40,52,27,45);
+context.lineTo(33, 30);
+context.closePath();
+context.fillStyle = "#FACC13";
+context.fill();
+context.strokeStyle = "#FACC13";
+context.stroke();
+
+
+context.beginPath(); // bottom left; blue
+context.strokeStyle = "#8BA4FD";
+context.lineWidth = 1;
+context.moveTo(30,29);
+context.quadraticCurveTo(30,24,5,25);
+context.lineTo(0, 40);
+context.quadraticCurveTo(20,40,24,43);
+context.lineTo(30, 29);
+context.closePath();
+context.fillStyle = "#8BA4FD";
+context.fill();
+context.strokeStyle = "#8BA4FD";
+context.stroke();
+
+}
+}
+
+
+</script>
 <script>
     var socket = io()
     var email;
     var password;
     $("form").submit((e) => {
         e.preventDefault()
-        if(document.getElementById("text").placeholder == "Email"){
-            email = $("#text").val()
-            $("#text").val("")
-            document.getElementById("text").placeholder = "Password"
-            document.getElementById("text").type = "password"
-            document.getElementById("submit").value = "Login!"
-        }
-        else{
-            password = MD5($("#text").val())
-            console.log(password)
-            socket.emit("login", email, password)
-
-        }
+        console.log(document.getElementById("password").value)
+        var email = document.getElementById("username").value
+        var password = MD5(document.getElementById("password").value)
+        socket.emit("login", email, password)
     })
     socket.on("passwordCorrect", (username, key)=>{
         localStorage.setItem("username", username)
@@ -96,11 +137,14 @@
         window.location.href="dep.html"
     })
     socket.on("passwordWrong", () => {
-        document.getElementById("E").innerHTML = "Username Or Password Incorrect"
-        document.getElementById("form").reset()
-        document.getElementById("text").placeholder = "Email"
-            document.getElementById("text").type = "email"
-            document.getElementById("submit").value = "Countinue"
+        alert("passowrd Wrong")
     })
+    function ClearForm(){
+        document.getElementById("username").value = ""
+        document.getElementById("password").value = ""
+    }
 </script>
 <script src="/script/public.js"></script>
+
+</div> <!-- end of window -->
+</body>

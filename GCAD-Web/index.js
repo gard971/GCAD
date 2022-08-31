@@ -72,7 +72,6 @@ io.on("connection", (socket) => {
     //listens for register requests and checks if user allready exists then creates a new user if not
     socket.on("register", (username, nonHashPassword) => {
         hash(nonHashPassword).then(function (password) {
-            if (!completed) {
                 if (password == false) {
                     socket.emit("eror", "500 internal server error, Server could not secure your password properly and therfore it was not stored on the server. ERR:HASHERR")
                     return false
@@ -95,7 +94,6 @@ io.on("connection", (socket) => {
                     jsonWrite(json, "data/users.json")
                     socket.emit("userCreated")
                 }
-            }
         })
     })
     //checks if the client has logged in before accesing logged in pages and redirects to the login page if not
