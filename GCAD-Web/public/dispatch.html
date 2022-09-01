@@ -100,12 +100,6 @@
                 }
             }
         }
-        if(!fromUnitLoggedIn){
-            socket.emit("requestCalls")
-        }
-        else{
-             fromUnitLoggedIn = false
-        }
     })
     socket.on("calls", (ammount) => {
         var value = document.getElementById("unitsNewCall")

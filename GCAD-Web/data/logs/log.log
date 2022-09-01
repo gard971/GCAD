@@ -1693,3 +1693,26 @@
     at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
     at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[31.8.2022 @ 20:46] ---------------
+[31.8.2022 @ 20:46] Server started
+[31.8.2022 @ 20:46] ---------------
+[31.8.2022 @ 20:46] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[1.9.2022 @ 19:45] ---------------
+[1.9.2022 @ 19:45] Server started
+[1.9.2022 @ 19:45] ---------------
+[1.9.2022 @ 19:45] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[1.9.2022 @ 20:16] ---------------
+[1.9.2022 @ 20:16] Server started
+[1.9.2022 @ 20:16] ---------------
+[1.9.2022 @ 20:16] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[1.9.2022 @ 20:17] gardsoreng@gmail.com Just added department LSPD , to user test
+[1.9.2022 @ 20:17] Error: No recipients defined

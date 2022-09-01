@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 footer{
-    background-color:rgb(1, 1, 54);
+    background-color:rgb(59, 119, 188);
     padding-top:5%;
     padding-right:105%;
     position: absolute;
@@ -58,7 +58,7 @@ html{
     z-index: 0;
     left:40%;
     top:30%;
-    border-color:grey;
+    border-color:rgb(59, 119, 188);;
     border-width:10px;
     border-radius: 10%;
     border-style:solid;
@@ -86,7 +86,7 @@ input{
     z-index: 0;
     left:40%;
     top:30%;
-    border-color:grey;
+    border-color:rgb(59, 119, 188);;
     border-width:10px;
     border-radius: 10%;
     border-style:solid;
@@ -102,10 +102,10 @@ input{
     position: absolute;
     left:40%;
     padding:8%;
-    border-color: grey;
+    border-color: rgb(59, 119, 188);;
     border-style:solid;
     border-width:10px;
-    border-radius:10%;
+    border-radius:0%;
     bottom:35%;
     text-align: center;
 
@@ -125,10 +125,10 @@ input{
     position: absolute;
     left:40%;
     padding:8%;
-    border-color: grey;
+    border-color: rgb(59, 119, 188);;
     border-style:solid;
     border-width:10px;
-    border-radius:10%;
+    border-radius:0%;
     bottom:35%;
     text-align: center;
 }
@@ -146,10 +146,10 @@ input{
     position: absolute;
     left:35%;
     padding:7%;
-    border-color: grey;
+    border-color: rgb(59, 119, 188);;
     border-style:solid;
     border-width:10px;
-    border-radius:10%;
+    border-radius:0%;
     bottom:10%;
     text-align: center;
 }
@@ -158,10 +158,10 @@ input{
     position: absolute;
     left:35%;
     padding:8%;
-    border-color: grey;
+    border-color: rgb(59, 119, 188);;
     border-style:solid;
     border-width:10px;
-    border-radius:10%;
+    border-radius:0%;
     bottom:25%;
     text-align: center;
 }
@@ -170,10 +170,10 @@ input{
     position: absolute;
     left:35%;
     padding:8%;
-    border-color: grey;
+    border-color: rgb(59, 119, 188);;
     border-style:solid;
     border-width:10px;
-    border-radius:10%;
+    border-radius:0%;
     bottom:25%;
     text-align: center;
 }
@@ -186,10 +186,10 @@ input{
     position: absolute;
     left:35%;
     padding:8%;
-    border-color: grey;
+    border-color: rgb(59, 119, 188);;
     border-style:solid;
     border-width:10px;
-    border-radius:10%;
+    border-radius:0%;
     bottom:35%;
     text-align: center;
     font-weight: 900;
@@ -208,10 +208,10 @@ input{
     position: absolute;
     left:35%;
     padding:8%;
-    border-color: grey;
+    border-color: rgb(59, 119, 188);;
     border-style:solid;
     border-width:10px;
-    border-radius:10%;
+    border-radius:0%;
     bottom:35%;
     text-align: center;
     font-weight: 900;
@@ -255,10 +255,10 @@ input{
     position: absolute;
     right:35%;
     padding:8%;
-    border-color: grey;
+    border-color: rgb(59, 119, 188);;
     border-style:solid;
     border-width:10px;
-    border-radius:10%;
+    border-radius:0%;
     bottom:35%;
     text-align: center;
 }
@@ -286,10 +286,10 @@ input{
     position: absolute;
     left:35%;
     padding:8%;
-    border-color: grey;
+    border-color: rgb(59, 119, 188);;
     border-style:solid;
     border-width:10px;
-    border-radius:10%;
+    border-radius:0%;
     bottom:35%;
     text-align: center;
     font-weight: 900;
@@ -310,10 +310,10 @@ input{
     position: absolute;
     left:35%;
     padding:8%;
-    border-color: grey;
+    border-color: rgb(59, 119, 188);;
     border-style:solid;
     border-width:10px;
-    border-radius:10%;
+    border-radius:0%;
     bottom:35%;
     text-align: center;
     font-weight: 900;
@@ -340,14 +340,13 @@ input{
     cursor: pointer;
 }
 #cont911{
-    position: absolute;
     left:30%;
     padding:15%;
     padding-right:25%;
-    border-color: grey;
+    border-radius: 10%;
+    border-color: rgb(59, 119, 188);;
     border-style:solid;
     border-width:10px;
-    border-radius:10%;
     bottom:20%;
     font-weight: 900;
     font-size: 200%;
