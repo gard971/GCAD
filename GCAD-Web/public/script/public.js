@@ -5,7 +5,6 @@ socket.on("eror", (msg) => {
     console.error("ERROR server returned a status of 500 with following message: '"+msg+"'")
 })
 socket.on("refresh", () => {
-    alert("The server requested all clients to refresh the page. Probably becuase of a server restart. This will now automaticly happen")
     window.location.reload()
 })
 function check(needDeps){
@@ -13,30 +12,73 @@ function check(needDeps){
         console.error("needDeps was not type of boolean. Operation canceled")
         return;
     }
-    socket.emit("check", localStorage.getItem("username"), localStorage.getItem("key"), needDeps)
+    var username = getCookie("username")
+    var key = getCookie("key")
+    if(username && key){
+      socket.emit("check", username, key, needDeps)
+    } else{
+        window.location.href="index.html"
+    }
 }
 socket.on("notAllowed", () => {
-    window.location.href="index.html"
+    console.log(document.URL.includes("index.html") || !document.URL.includes(".html"))
+    if(!document.URL.includes("index.html") && document.URL.includes(".html")){
+        window.location.href="index.html"
+    }
 })
 socket.on("disconnect", () =>{
-    alert("Could not establish connection with the server")
+    document.getElementById("ErrorNoCon").hidden = false
 })
 socket.on("connect_failed", () => {
-    alert("Could not establish connection with the server")
+    document.getElementById("ErrorNoCon").hidden = false
 })
 socket.on("connect_error", () => {
-    alert("Could not establish connection with the server")
+    document.getElementById("ErrorNoCon").hidden = false
 })
-function checkCookie(){
+function checkCookieEnabled(){
     var cookieEnabled = navigator.cookieEnabled;
     if (!cookieEnabled){ 
         document.cookie = "testcookie";
         cookieEnabled = document.cookie.indexOf("testcookie")!=-1;
+    } else{
+        var expires = new Date()
+        expires.set
+        expires.setHours(expires.getHours()+1)
+        expires=`expires=${expires.toUTCString()}`
+        setCookie("test", "abc")
     }
+    console.log(cookieEnabled)
     return cookieEnabled || showCookieFail();
 }
 
 function showCookieFail(){
-    window.location.href="cookie disabled"
+    window.location.href="NoCookie.html"
+}checkCookieEnabled();
+function setCookie(cname, cvalue, exdays){
+    const d = new Date()
+    if(exdays){
+      d.setTime(d.getTime()+ (exdays*24*60*60*1000))
+      let expires = `expires=${d.toUTCString()}`
+      console.log(d.toUTCString())
+      document.cookie = `${cname}=${cvalue};${expires};path=/`
+    }
+    else{
+        document.cookie = `${cname}=${cvalue};path=/`
+    }
+    return true
 }
-checkCookie();
+function getCookie(cname){
+    var name=`${cname}=`
+    var decodedCookie = decodeURIComponent(document.cookie)
+    var ca = decodedCookie.split(";")
+    for(var i = 0; i<ca.length;i++){
+        var c = ca[i]
+        while(c.charAt(0) == " "){
+            c = c.substring(1);
+        }
+        if(c.indexOf(name) == 0){
+            return c.substring(name.length, c.length)
+        }
+    }
+    return false
+}

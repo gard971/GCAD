@@ -1,12 +1,20 @@
+const fs = require("fs")
 //VERSION A1(alpha version.)
 
 //////CONFIG, will require a server restart before changes are put into effect///////
+var options = {
+    key: fs.readFileSync('httpsFiles/private.key'),
+    cert: fs.readFileSync('httpsFiles/certificate.crt'),
+    ca: fs.readFileSync('httpsFiles/ca_bundle.crt')
+  };
 
+var http = require("http")
 var useLogs = true //change this variable to false to disable action logging like when admins adds/removes departments, will not affect error logging
 var serverRestarted = true //Change this to false to disable page reloading on server restart. Due to login security it is recomended to keep it on
 var port = 80; //only change this if you are running multiple services on the network, and you know what you are doing
-var emailUsername = "gardsoreng@gmail.com" //email used to send emails to people who has requested a department. Leave blank to disable mailing. Only compatible with gmail atm
-var emailPassword = "nxheqbfyiscatwhw" //Password used to send emails DO NOT USE YOUR NORMAL PASSWORD THIS WILL NOT WORK!! use an app password instead. watch this video on how to generate one: https://www.youtube.com/watch?v=ndxUgivCszE
+var emailUsername = "GCAD.OPERATIONS@gmail.com" //email used to send emails to people who has requested a department. Leave blank to disable mailing. Only compatible with gmail atm
+var emailPassword = "slvghsyiodjrwcjk" //Password used to send emails DO NOT USE YOUR NORMAL PASSWORD THIS WILL NOT WORK!! use an app password instead. watch this video on how to generate one: https://www.youtube.com/watch?v=ndxUgivCszE
+var domainName = "gcad.gq"
 var saltRounds = 10 //used for salting passwords. If your server is running slow you can turn this down but it will reduce password security. Recomended and deafult value is 10
 var logCurrentUsers = false //set to false to not track amount of people on the website and log in console
 var APIpassword = "test" //this is the password that you need to input when making API requests. This password and the one in discordBot.js needs to match or the discord bot will not work
@@ -17,17 +25,18 @@ var LEODepartments = ["LSPD", "LSCS", "SAHP"] //all departments that has access 
 
 //////DONT CHANGE ANYTHING BELOW THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOING!!////////
 //Packages requierd for this app. Will not work without
-const fs = require("fs")
+
+
+const express = require("express")
 const app = require("express")();
-const http = require("http").createServer(app).listen(port, () => {
+const https = require("http").createServer(app).listen(port, () => {
     console.log(`server listening on port ${port}, please use CTRL + C to stop server`);
     log("---------------");
     log("Server started");
     log("---------------")
 })
-const io = require("socket.io")(http)
+const io = require("socket.io")(https)
 const path = require("path")
-const express = require("express")
 const nodemailer = require("nodemailer")
 const bcrypt = require("bcrypt");
 const {
@@ -119,6 +128,8 @@ io.on("connection", (socket) => {
                 }
             }
             socket.emit("deps", array)
+        } else if(allowed){
+            socket.emit("allowed")
         }
     })
     //creates new callsign for police and emits it to dispatch
@@ -651,7 +662,7 @@ io.on("connection", (socket) => {
                     key: Math.random()
                 }
                 newPassword.push(newObject)
-                sendMail(email, "Forgoten Password", `hello ${email}, you can reset your password at this link: http://31.45.72.232/reset.html?id=${newObject.key} If you did not request a password reset you can ignore this mail.`)
+                sendMail(email, "Forgoten Password", `hello ${email}, you can reset your password at this link: https://${domainName}/reset.html?id=${newObject.key} If you did not request a password reset you can ignore this mail.`)
                 found = true
                 socket.emit("forgotStarted")
             }

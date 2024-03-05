@@ -4,6 +4,11 @@
     <input placeholder="Email" type="email" id="email"><br><br>
     <input type="submit" value="Continue">
 </form>
+<div id="ErrorNoCon" hidden>
+    <h1>Error!</h1>
+    <p>Could not establish connection with the server</p>
+    <p>Please try again later</p>
+</div>
 <script src="/socket.io/socket.io.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.4.1.js"
@@ -24,6 +29,29 @@
 </script>
 <script src="/script/public.js"></script>
 <style>
+        #ErrorNoCon{
+        position: absolute;
+        background-color: red;
+        width: 500px;
+        height: 150px;
+        border-width: 5px;
+        border:solid;
+        border-color: yellow;
+        left:50%;
+        top:50%;
+        margin-left:-250px;
+        margin-top:-75px;
+
+    }
+    #ErrorNoCon h1{
+        position: relative;
+        left: 50%;
+        width: 80px;
+        margin-left:-40px;
+    }
+    #ErrorNoCon p{
+        text-align: center;
+    }
 #form{
     position: absolute;
     top: 35%;

@@ -1716,3 +1716,520 @@
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
 [1.9.2022 @ 20:17] gardsoreng@gmail.com Just added department LSPD , to user test
 [1.9.2022 @ 20:17] Error: No recipients defined
+[2.9.2022 @ 22:34] ---------------
+[2.9.2022 @ 22:34] Server started
+[2.9.2022 @ 22:34] ---------------
+[2.9.2022 @ 22:34] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 0:38] ---------------
+[5.11.2022 @ 0:38] Server started
+[5.11.2022 @ 0:38] ---------------
+[5.11.2022 @ 0:38] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 0:39] ---------------
+[5.11.2022 @ 0:39] Server started
+[5.11.2022 @ 0:39] ---------------
+[5.11.2022 @ 0:39] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 0:39] -------------------------
+[5.11.2022 @ 0:39] server shutting down
+[5.11.2022 @ 0:39] -------------------------
+[5.11.2022 @ 0:39] ---------------
+[5.11.2022 @ 0:39] Server started
+[5.11.2022 @ 0:39] ---------------
+[5.11.2022 @ 0:39] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:06] -------------------------
+[5.11.2022 @ 1:06] server shutting down
+[5.11.2022 @ 1:06] -------------------------
+[5.11.2022 @ 1:06] ---------------
+[5.11.2022 @ 1:06] Server started
+[5.11.2022 @ 1:06] ---------------
+[5.11.2022 @ 1:06] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:06] -------------------------
+[5.11.2022 @ 1:06] server shutting down
+[5.11.2022 @ 1:06] -------------------------
+[5.11.2022 @ 1:07] ---------------
+[5.11.2022 @ 1:07] Server started
+[5.11.2022 @ 1:07] ---------------
+[5.11.2022 @ 1:07] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:07] -------------------------
+[5.11.2022 @ 1:07] server shutting down
+[5.11.2022 @ 1:07] -------------------------
+[5.11.2022 @ 1:07] ---------------
+[5.11.2022 @ 1:07] Server started
+[5.11.2022 @ 1:07] ---------------
+[5.11.2022 @ 1:07] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:08] -------------------------
+[5.11.2022 @ 1:08] server shutting down
+[5.11.2022 @ 1:08] -------------------------
+[5.11.2022 @ 1:13] ---------------
+[5.11.2022 @ 1:13] Server started
+[5.11.2022 @ 1:13] ---------------
+[5.11.2022 @ 1:13] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:13] -------------------------
+[5.11.2022 @ 1:13] server shutting down
+[5.11.2022 @ 1:13] -------------------------
+[5.11.2022 @ 1:15] ---------------
+[5.11.2022 @ 1:15] Server started
+[5.11.2022 @ 1:15] ---------------
+[5.11.2022 @ 1:15] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:15] -------------------------
+[5.11.2022 @ 1:15] server shutting down
+[5.11.2022 @ 1:15] -------------------------
+[5.11.2022 @ 1:15] ---------------
+[5.11.2022 @ 1:15] Server started
+[5.11.2022 @ 1:15] ---------------
+[5.11.2022 @ 1:15] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:15] -------------------------
+[5.11.2022 @ 1:15] server shutting down
+[5.11.2022 @ 1:15] -------------------------
+[5.11.2022 @ 1:16] ---------------
+[5.11.2022 @ 1:16] Server started
+[5.11.2022 @ 1:16] ---------------
+[5.11.2022 @ 1:16] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:16] -------------------------
+[5.11.2022 @ 1:16] server shutting down
+[5.11.2022 @ 1:16] -------------------------
+[5.11.2022 @ 1:16] ---------------
+[5.11.2022 @ 1:16] Server started
+[5.11.2022 @ 1:16] ---------------
+[5.11.2022 @ 1:16] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:17] -------------------------
+[5.11.2022 @ 1:17] server shutting down
+[5.11.2022 @ 1:17] -------------------------
+[5.11.2022 @ 1:17] ---------------
+[5.11.2022 @ 1:17] Server started
+[5.11.2022 @ 1:17] ---------------
+[5.11.2022 @ 1:17] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:17] -------------------------
+[5.11.2022 @ 1:17] server shutting down
+[5.11.2022 @ 1:17] -------------------------
+[5.11.2022 @ 1:18] ---------------
+[5.11.2022 @ 1:18] Server started
+[5.11.2022 @ 1:18] ---------------
+[5.11.2022 @ 1:18] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:18] -------------------------
+[5.11.2022 @ 1:18] server shutting down
+[5.11.2022 @ 1:18] -------------------------
+[5.11.2022 @ 1:19] ---------------
+[5.11.2022 @ 1:19] Server started
+[5.11.2022 @ 1:19] ---------------
+[5.11.2022 @ 1:19] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:22] -------------------------
+[5.11.2022 @ 1:22] server shutting down
+[5.11.2022 @ 1:22] -------------------------
+[5.11.2022 @ 1:22] ---------------
+[5.11.2022 @ 1:22] Server started
+[5.11.2022 @ 1:22] ---------------
+[5.11.2022 @ 1:22] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 1:22] -------------------------
+[5.11.2022 @ 1:22] server shutting down
+[5.11.2022 @ 1:22] -------------------------
+[5.11.2022 @ 1:22] ---------------
+[5.11.2022 @ 1:22] Server started
+[5.11.2022 @ 1:22] ---------------
+[5.11.2022 @ 1:22] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 2:26] ---------------
+[5.11.2022 @ 2:26] Server started
+[5.11.2022 @ 2:26] ---------------
+[5.11.2022 @ 2:26] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 2:49] -------------------------
+[5.11.2022 @ 2:49] server shutting down
+[5.11.2022 @ 2:49] -------------------------
+[5.11.2022 @ 2:49] ---------------
+[5.11.2022 @ 2:49] Server started
+[5.11.2022 @ 2:49] ---------------
+[5.11.2022 @ 2:49] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 3:25] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:25] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:25] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:25] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:25] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:25] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:25] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:25] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:26] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:26] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:26] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:26] UncaugthException: TypeError: Cannot read properties of null (reading 'includes')
+    at Socket.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:237:22)
+    at Socket.emit (node:events:390:28)
+    at C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[5.11.2022 @ 3:53] UncaugthException: Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at Server.listen (node:net:1454:7)
+    at Object.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:22:48)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[5.11.2022 @ 4:46] sent mail to gardsoreng@gmail.com
+[5.11.2022 @ 4:56] -------------------------
+[5.11.2022 @ 4:56] server shutting down
+[5.11.2022 @ 4:56] -------------------------
+[5.11.2022 @ 4:56] ---------------
+[5.11.2022 @ 4:56] Server started
+[5.11.2022 @ 4:56] ---------------
+[5.11.2022 @ 4:56] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 4:56] sent mail to gardsoreng@gmail.com
+[5.11.2022 @ 5:07] gardsoreng@gmail.com Just added department LSPD , to user gardsoreng@gmail.com
+[5.11.2022 @ 5:07] sent mail to gardsoreng@gmail.com
+[5.11.2022 @ 5:29] ---------------
+[5.11.2022 @ 5:29] Server started
+[5.11.2022 @ 5:29] ---------------
+[5.11.2022 @ 5:29] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 14:12] ---------------
+[5.11.2022 @ 14:12] Server started
+[5.11.2022 @ 14:12] ---------------
+[5.11.2022 @ 14:12] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 14:22] -------------------------
+[5.11.2022 @ 14:22] server shutting down
+[5.11.2022 @ 14:22] -------------------------
+[5.11.2022 @ 14:22] ---------------
+[5.11.2022 @ 14:22] Server started
+[5.11.2022 @ 14:22] ---------------
+[5.11.2022 @ 14:22] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 15:42] -------------------------
+[5.11.2022 @ 15:42] server shutting down
+[5.11.2022 @ 15:42] -------------------------
+[5.11.2022 @ 15:42] ---------------
+[5.11.2022 @ 15:42] Server started
+[5.11.2022 @ 15:42] ---------------
+[5.11.2022 @ 15:42] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 18:02] ---------------
+[5.11.2022 @ 18:02] Server started
+[5.11.2022 @ 18:02] ---------------
+[5.11.2022 @ 18:02] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 18:46] -------------------------
+[5.11.2022 @ 18:46] server shutting down
+[5.11.2022 @ 18:46] -------------------------
+[5.11.2022 @ 18:47] ---------------
+[5.11.2022 @ 18:47] Server started
+[5.11.2022 @ 18:47] ---------------
+[5.11.2022 @ 18:47] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 18:49] Gard Just added department LSPD , to user Gard
+[5.11.2022 @ 18:49] Error: No recipients defined
+[5.11.2022 @ 18:50] user Gard just declined Gard`s request to add department communications to their account 
+[5.11.2022 @ 18:50] Error: No recipients defined
+[5.11.2022 @ 18:50] Error: No recipients defined
+[5.11.2022 @ 18:50] Gard Just added department LSPD , to user Gardsoreng@gmail.com
+[5.11.2022 @ 18:50] sent mail to Gardsoreng@gmail.com
+[5.11.2022 @ 18:50] user Gard just declined Gardsoreng@gmail.com`s request to add department communications to their account 
+[5.11.2022 @ 18:50] sent mail to Gardsoreng@gmail.com
+[5.11.2022 @ 18:52] Gard Just added department communications , to user Gard
+[5.11.2022 @ 18:52] Error: No recipients defined
+[5.11.2022 @ 18:52] user Gard just added Gardsoreng@gmail.com as admin
+[5.11.2022 @ 18:52] Gard Just added department communications , to user Gardsoreng@gmail.com
+[5.11.2022 @ 18:52] sent mail to Gardsoreng@gmail.com
+[5.11.2022 @ 18:55] -------------------------
+[5.11.2022 @ 18:55] server shutting down
+[5.11.2022 @ 18:55] -------------------------
+[5.11.2022 @ 22:58] ---------------
+[5.11.2022 @ 22:58] Server started
+[5.11.2022 @ 22:58] ---------------
+[5.11.2022 @ 22:58] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[5.11.2022 @ 23:01] Gard Just added department LSPD , to user oystein.s.vagsholm@gmail.com
+[5.11.2022 @ 23:01] sent mail to oystein.s.vagsholm@gmail.com
+[6.11.2022 @ 1:18] ---------------
+[6.11.2022 @ 1:18] Server started
+[6.11.2022 @ 1:18] ---------------
+[6.11.2022 @ 1:18] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[6.11.2022 @ 3:59] ---------------
+[6.11.2022 @ 3:59] Server started
+[6.11.2022 @ 3:59] ---------------
+[6.11.2022 @ 3:59] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[6.11.2022 @ 4:10] -------------------------
+[6.11.2022 @ 4:10] server shutting down
+[6.11.2022 @ 4:10] -------------------------
+[6.11.2022 @ 4:12] ---------------
+[6.11.2022 @ 4:12] Server started
+[6.11.2022 @ 4:12] ---------------
+[6.11.2022 @ 4:15] -------------------------
+[6.11.2022 @ 4:15] server shutting down
+[6.11.2022 @ 4:15] -------------------------
+[6.11.2022 @ 4:27] ---------------
+[6.11.2022 @ 4:27] Server started
+[6.11.2022 @ 4:27] ---------------
+[6.11.2022 @ 4:29] -------------------------
+[6.11.2022 @ 4:29] server shutting down
+[6.11.2022 @ 4:29] -------------------------
+[6.11.2022 @ 4:30] ---------------
+[6.11.2022 @ 4:30] Server started
+[6.11.2022 @ 4:30] ---------------
+[6.11.2022 @ 4:39] -------------------------
+[6.11.2022 @ 4:39] server shutting down
+[6.11.2022 @ 4:39] -------------------------
+[6.11.2022 @ 4:43] ---------------
+[6.11.2022 @ 4:43] Server started
+[6.11.2022 @ 4:43] ---------------
+[6.11.2022 @ 4:44] -------------------------
+[6.11.2022 @ 4:44] server shutting down
+[6.11.2022 @ 4:44] -------------------------
+[6.11.2022 @ 4:44] ---------------
+[6.11.2022 @ 4:44] Server started
+[6.11.2022 @ 4:44] ---------------
+[6.11.2022 @ 4:44] -------------------------
+[6.11.2022 @ 4:44] server shutting down
+[6.11.2022 @ 4:44] -------------------------
+[6.11.2022 @ 4:44] ---------------
+[6.11.2022 @ 4:44] Server started
+[6.11.2022 @ 4:44] ---------------
+[6.11.2022 @ 4:46] -------------------------
+[6.11.2022 @ 4:46] server shutting down
+[6.11.2022 @ 4:46] -------------------------
+[6.11.2022 @ 14:11] ---------------
+[6.11.2022 @ 14:11] Server started
+[6.11.2022 @ 14:11] ---------------
+[6.11.2022 @ 14:11] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[6.11.2022 @ 14:15] -------------------------
+[6.11.2022 @ 14:15] server shutting down
+[6.11.2022 @ 14:15] -------------------------
+[6.11.2022 @ 14:15] ---------------
+[6.11.2022 @ 14:15] Server started
+[6.11.2022 @ 14:15] ---------------
+[6.11.2022 @ 14:15] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[6.11.2022 @ 14:17] -------------------------
+[6.11.2022 @ 14:17] server shutting down
+[6.11.2022 @ 14:17] -------------------------
+[6.11.2022 @ 14:18] ---------------
+[6.11.2022 @ 14:18] Server started
+[6.11.2022 @ 14:18] ---------------
+[6.11.2022 @ 14:21] -------------------------
+[6.11.2022 @ 14:21] server shutting down
+[6.11.2022 @ 14:21] -------------------------
+[6.11.2022 @ 14:21] ---------------
+[6.11.2022 @ 14:21] Server started
+[6.11.2022 @ 14:21] ---------------
+[6.11.2022 @ 14:22] -------------------------
+[6.11.2022 @ 14:22] server shutting down
+[6.11.2022 @ 14:22] -------------------------
+[6.11.2022 @ 14:22] ---------------
+[6.11.2022 @ 14:22] Server started
+[6.11.2022 @ 14:22] ---------------
+[6.11.2022 @ 14:22] -------------------------
+[6.11.2022 @ 14:22] server shutting down
+[6.11.2022 @ 14:22] -------------------------
+[6.11.2022 @ 14:22] ---------------
+[6.11.2022 @ 14:22] Server started
+[6.11.2022 @ 14:22] ---------------
+[6.11.2022 @ 14:23] -------------------------
+[6.11.2022 @ 14:23] server shutting down
+[6.11.2022 @ 14:23] -------------------------
+[6.11.2022 @ 14:23] ---------------
+[6.11.2022 @ 14:23] Server started
+[6.11.2022 @ 14:23] ---------------
+[6.11.2022 @ 14:27] -------------------------
+[6.11.2022 @ 14:27] server shutting down
+[6.11.2022 @ 14:27] -------------------------
+[6.11.2022 @ 14:27] ---------------
+[6.11.2022 @ 14:27] Server started
+[6.11.2022 @ 14:27] ---------------
+[6.11.2022 @ 15:31] -------------------------
+[6.11.2022 @ 15:31] server shutting down
+[6.11.2022 @ 15:31] -------------------------
+[6.11.2022 @ 15:31] ---------------
+[6.11.2022 @ 15:31] Server started
+[6.11.2022 @ 15:31] ---------------
+[6.11.2022 @ 15:40] -------------------------
+[6.11.2022 @ 15:40] server shutting down
+[6.11.2022 @ 15:40] -------------------------
+[6.11.2022 @ 15:40] ---------------
+[6.11.2022 @ 15:40] Server started
+[6.11.2022 @ 15:40] ---------------
+[6.11.2022 @ 18:40] ---------------
+[6.11.2022 @ 18:40] Server started
+[6.11.2022 @ 18:40] ---------------
+[6.11.2022 @ 18:40] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[9.11.2022 @ 22:30] ---------------
+[9.11.2022 @ 22:30] Server started
+[9.11.2022 @ 22:30] ---------------
+[9.11.2022 @ 22:30] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[30.6.2023 @ 14:54] ---------------
+[30.6.2023 @ 14:54] Server started
+[30.6.2023 @ 14:54] ---------------
+[30.6.2023 @ 14:54] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[30.6.2023 @ 14:55] UncaugthException: Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+    at listenInCluster (node:net:1367:12)
+    at Server.listen (node:net:1454:7)
+    at Object.<anonymous> (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\index.js:32:49)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+[30.6.2023 @ 14:55] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[30.6.2023 @ 14:56] ---------------
+[30.6.2023 @ 14:56] Server started
+[30.6.2023 @ 14:56] ---------------
+[30.6.2023 @ 14:56] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[30.6.2023 @ 14:57] -------------------------
+[30.6.2023 @ 14:57] server shutting down
+[30.6.2023 @ 14:57] -------------------------
+[30.6.2023 @ 14:58] ---------------
+[30.6.2023 @ 14:58] Server started
+[30.6.2023 @ 14:58] ---------------
+[30.6.2023 @ 14:58] sent mail to Gardsoreng@gmail.com
+[30.6.2023 @ 14:59] sent mail to Gardsoreng@gmail.com
+[30.6.2023 @ 20:12] ---------------
+[30.6.2023 @ 20:12] Server started
+[30.6.2023 @ 20:12] ---------------
+[30.6.2023 @ 20:12] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\OneDrive\Skrivebord\GCAD Package\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[30.6.2023 @ 20:12] sent mail to Gardsoreng@gmail.com

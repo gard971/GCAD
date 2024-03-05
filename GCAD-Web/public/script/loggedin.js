@@ -2,12 +2,7 @@ var socket = io()
 var returnNeeded; 
 var callsignChange
     $(function(){
-         if(localStorage.getItem("username") && localStorage.getItem("key") && sessionStorage.getItem("dep")){
-             socket.emit("check", localStorage.getItem("username"), localStorage.getItem("key"), true)
-         }
-         else{
-             window.location.href="index.html"
-         }
+        check(true)
     })
     $("#newCharacterForm").submit(function(e){
         e.preventDefault()
@@ -26,7 +21,7 @@ var callsignChange
             "gunLicenses":[],
             "guns":[]
         }
-        socket.emit("newCharacter",localStorage.getItem("username"), formInfo)
+        socket.emit("newCharacter",getCookie("username"), formInfo)
     }
     })
     $("#newVehicleForm").submit((e) => {
@@ -37,26 +32,26 @@ var callsignChange
             alert("please select a insurance status")
         }
         else{
-            var array = [sessionStorage.getItem("civname"), localStorage.getItem("username"), $("#newLicensePlate").val(), $("#newColor").val(), $("#newType").val(), $("#newDoors").val(), selectValue]
+            var array = [getCookie("civname"), getCookie("username"), $("#newLicensePlate").val(), $("#newColor").val(), $("#newType").val(), $("#newDoors").val(), selectValue]
             socket.emit("newVehicle", array)
         }
     })
     $("#databaseForm").submit((e) => {
-        if(sessionStorage.getItem("dep") == "civillian" ||sessionStorage.getItem("dep") == "LSFD"){
+        if(getCookie("dep") == "civillian" ||getCookie("dep") == "LSFD"){
             alert("you do not have access to use this")
         }
         else{
-            socket.emit("check", localStorage.getItem("username"), localStorage.getItem("key"), true)
+            socket.emit("check", getCookie("username"), getCookie("key"), true)
             e.preventDefault()
             socket.emit("databaseSearch", $("#databaseFirstname").val(), $("#databaseSurname").val())
         }
     })
     $("#plateSearchForm").submit((e) => {
-        if(sessionStorage.getItem("dep") == "civillian" ||sessionStorage.getItem("dep") == "LSFD"){
+        if(getCookie("dep") == "civillian" ||getCookie("dep") == "LSFD"){
             alert("you do not have access to use this")
         }
         else{
-            socket.emit("check", localStorage.getItem("username"), localStorage.getItem("key"), true)
+            socket.emit("check", getCookie("username"), getCookie("key"), true)
         e.preventDefault()
         socket.emit("plateSearch", $("#plateNumber").val())
         }
@@ -76,7 +71,7 @@ var callsignChange
     })
     socket.on("deps", (array) => {
         var found = false
-        if(sessionStorage.getItem("dep") == "debug"){
+        if(getCookie("dep") == "debug"){
             for(var i = 0; i<array.length; i++){
                 if(array[i] == "admin"){
                     return false;
@@ -86,20 +81,20 @@ var callsignChange
             return false;
         }
         for(var i = 0; i<array.length; i++){
-            if(array[i] == sessionStorage.getItem("dep")){
+            if(array[i] == getCookie("dep")){
                 found = true
                 if(callsignChange == true){
                     var value = document.getElementById("statusSelect")
                     var selectValue = value.options[value.selectedIndex].value
                     if(selectValue == "start"){var status = "10-7"} else{var status = selectValue}
-                    if(sessionStorage.getItem("callsign")){
-                        socket.emit("callsign", sessionStorage.getItem("callsign"), $("#callsign").val(), status)
-                    sessionStorage.setItem("callsign", $("#callsign").val())
+                    if(getCookie("callsign")){
+                        socket.emit("callsign", getCookie("callsign"), $("#callsign").val(), status)
+                    setCookie("callsign", $("#callsign").val())
                     document.getElementById("callsignParam").innerHTML = $("#callsign").val()
                     }
                     else{
                         socket.emit("callsign", -1, $("#callsign").val(), status)
-                        sessionStorage.setItem("callsign", $("#callsign").val)
+                        setCookie("callsign", $("#callsign").val)
                         document.getElementById("callsignParam").innerHTML = $("#callsign").val()
                     }
                 }
@@ -111,7 +106,7 @@ var callsignChange
         }
         var isLEO
         LEODeps.forEach(LEODep => {
-            if(sessionStorage.getItem("dep") == LEODep){
+            if(getCookie("dep") == LEODep){
                 isLEO = true
             }
         })
@@ -120,9 +115,9 @@ var callsignChange
             windowHandle("vehicleCont", false)
             windowHandle("comsCont", false)
         }
-        else if(sessionStorage.getItem("dep") == "civillian"){
+        else if(getCookie("dep") == "civillian"){
             windowHandle("selectCharacter", false)
-            socket.emit("requestCivs", localStorage.getItem("username"))
+            socket.emit("requestCivs", getCookie("username"))
         }
     })
     socket.on("unitLoggedIn", (units) => {
@@ -137,9 +132,9 @@ var callsignChange
         }
     })
     socket.on("logUnitOut", (unit) => {
-        if(unit == sessionStorage.getItem("callsign")){
+        if(unit == getCookie("callsign")){
             alert("dispatch has logged you out of the MDT. You will be prompted to login again")
-            localStorage.clear()
+            document.cookie = "key=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path?/;"
             window.location.href="index.html"
         }
     })
@@ -162,7 +157,7 @@ var callsignChange
         console.log("idk")
     })
     socket.on("civInfo", (civ) => {
-        socket.emit("check", localStorage.getItem("username"), localStorage.getItem("key"), true)
+        socket.emit("check", getCookie("username"), getCookie("key"), true)
         $("#warrantsUL").empty()
         $("#gunsUL").empty()
         if(civ == false){
@@ -249,19 +244,19 @@ var callsignChange
         call.mainUnit.forEach(unit => {
             var AssignedUnits = unit.toString().split("<li>").join("").split("</li>")
             AssignedUnits.forEach(assignedUnit => {
-                if(assignedUnit == sessionStorage.getItem("callsign")){
+                if(assignedUnit == getCookie("callsign")){
                     document.getElementById("currentCallVar").innerHTML = call.Code10
-                    sessionStorage.setItem("call", call.callID)
+                    setCookie("call", call.callID)
                 }
             })
         })
-        if(call.mainUnit == sessionStorage.getItem("callsign")){
+        if(call.mainUnit == getCookie("callsign")){
             document.getElementById("currentCallVar").innerHTML = call.Code10
-            sessionStorage.setItem("call", call.callID)
+            setCookie("call", call.callID)
         }
     })
     socket.on("callDeleted", (call) => {
-        if(call == sessionStorage.getItem("call")){
+        if(call == getCookie("call")){
             document.getElementById("currentCallVar").innerHTML = "None"
         }
     })
@@ -274,10 +269,10 @@ var callsignChange
     function status(){
         var value = document.getElementById("statusSelect")
         var selectValue = value.options[value.selectedIndex].value
-        socket.emit("statusChange", selectValue, sessionStorage.getItem("callsign"))
+        socket.emit("statusChange", selectValue, getCookie("callsign"))
     }
     function callsign(){
-        if(sessionStorage.getItem("dep") == "civillian"){
+        if(getCookie("dep") == "civillian"){
             alert("you do not have access to this")
             window.location.reload()
         }
@@ -285,12 +280,10 @@ var callsignChange
         callsignChange = true
     }
     function unload(){
-        socket.emit("removeCallsign", sessionStorage.getItem("callsign"))
+        socket.emit("removeCallsign", getCookie("callsign"))
     }
     function logout(){
-        socket.emit("logOut", localStorage.getItem("username"))
-        localStorage.clear()
-        sessionStorage.clear()
+        socket.emit("logOut", getCookie("username"))
         window.location.href="index.html"
     }
     function createNewCharacter(){
@@ -301,21 +294,21 @@ var callsignChange
     function selectCharacter(){
         var value = document.getElementById("selectCharacterSelect")
         var selectValue = value.options[value.selectedIndex].value
-        sessionStorage.setItem("civname", selectValue)
+        setCookie("civname", selectValue)
         windowHandle("selectCharacter", true)
         windowHandle('DMVIconCont', false)
         windowHandle("atfIconCont", false)
         windowHandle("icon911cont", false)
     }
     function grabLicense(){
-        socket.emit("grabLicense", sessionStorage.getItem("civname"), localStorage.getItem("username"))
+        socket.emit("grabLicense", getCookie("civname"), getCookie("username"))
     }
     function changeLicense(civ){
         if(civ){
         check(false)
         var value = document.getElementById("licenseHubSelect")
         var selectValue = value.options[value.selectedIndex].value
-        socket.emit("changeLicense", localStorage.getItem("username"), sessionStorage.getItem("civname"), selectValue)
+        socket.emit("changeLicense", getCookie("username"), getCookie("civname"), selectValue)
         document.getElementById("licenseStatusVar").innerHTML = selectValue
         $("#licenseHubSelect").append("<option selected hidden disabled value="+selectValue+">"+selectValue+"</option>")
         }
@@ -336,8 +329,8 @@ var callsignChange
         socket.emit("removeWarrant", "all", array)
     }
     function registerNewGun(){
-        var username = localStorage.getItem("username")
-        var name = sessionStorage.getItem("civname")
+        var username = getCookie("username")
+        var name = getCookie("civname")
         var gun = $("#gunTypeInput").val()
         socket.emit("newGun", gun, username, name)
     }

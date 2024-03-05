@@ -8,20 +8,26 @@
         <ul id="calls">  
         </ul>
     </container>
-    <container id="newCall" hidden>
-        <p>Create New Call!</p>
-        <form id="newCallForm">
-            <img id="close" src="media/close.png" onclick="document.getElementById('newCall').hidden = true; document.getElementById('newCallForm').reset()">
-            <input id="code10" placeholder="10-code" required><br>
-            <input id="newCallDes" placeholder="description" required><br>
-            <input placeholder="location" required><br>
-            <select id="unitsNewCall" required>
-            </select><br><br>
-            <button type="submit">ok!</button>
+   
+</container>
+<button onclick="latest911void()">Open latest 911</button>
+<hr>
+<container id="databases">
+    <container id="personDatabase" class="databaseContainers">
+        <h1>Person Database</h1>
+        <form id="personForm" onsubmit="PersonCheck(event)">
+            <input type="text" id="databaseFirstname" placeholder="Firstname"><br>
+            <input type="text" id="databaseSurname" placeholder="Surname">
+            <button>Send!</button>
+        </form>
+    </container>
+    <container id="VehicleDatabase" class="databaseContainers">
+        <h1>Vehicle Database</h1>
+        <form>
+            <input type="text" placeholder="License plate number">
         </form>
     </container>
 </container>
-<button onclick="latest911void()">Open latest 911</button>
 <container id="alert911" hidden>
     <img src="media/close.png" id="close" onclick="document.getElementById('alert911').hidden = true">
     <h2>NEW 911!</h2>
@@ -32,6 +38,48 @@
     <h2>911</h2>
     <p id="info911">Somthing went wrong, could not get 911 info</p>
 </container>
+<container id="newCall" hidden>
+    <p>Create New Call!</p>
+    <form id="newCallForm">
+        <img id="close" src="media/close.png" onclick="document.getElementById('newCall').hidden = true; document.getElementById('newCallForm').reset()">
+        <input id="code10" placeholder="10-code" required><br>
+        <input id="newCallDes" placeholder="description" required><br>
+        <input placeholder="location" required><br>
+        <select id="unitsNewCall" required>
+        </select><br><br>
+        <button type="submit">ok!</button>
+    </form>
+</container>
+<container id="databaseInfo" >
+    <img id="close" src="media/close.png" onclick="windowHandle('databaseInfo', true)">
+    <h2>Database Return:</h2>
+    <p>Firstname: <container id="firstnameInfo">undefined</container></p>
+    <p>Surname: <container id="surnameInfo">undefined</container></p>
+    <p>BirthDate: <container id="birthDateInfo">undefined</container></p>
+    <p>Build type: <container id="buildTypeInfo">undefined</container></p>
+    <p>License Status: <container id="licensesInfo">none</container></p>
+    <h4>Change License Status:</h4>
+    <select id="changeLicenseSelect" onchange="changeLicense(false)">
+        <option id="valid">Valid</option>
+        <option id="suspended">Suspended</option>
+        <option id="recalled">Recalled (To Be suspended when found)</option>
+    </select><br><br>
+    <container id="warrants">
+        <button id="addWarrantButton" onclick="windowHandle('databaseInfo', true); windowHandle('newWarrant', false)">+</button>
+        <button id="removeAllWarrants" onclick="removeAllWarrants()">remove all</button> 
+        <p>Warrants:</p>
+            <ul id="warrantsUL"></ul>
+    </container>
+    <container id="guns">
+        <p>Registered Guns:</p>
+        <ul id="gunsUL"></ul>
+    </container>
+</container>
+<div id="ErrorNoCon" hidden>
+    <h1>Error!</h1>
+    <p>Could not establish connection with the server</p>
+    <p>Please try again later</p>
+</div>
 <script src="/socket.io/socket.io.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.4.1.js"
@@ -43,8 +91,8 @@
     var maxId;
     var latest911
     $(function(){
-        if(localStorage.getItem("username") && localStorage.getItem("key") && sessionStorage.getItem("dep")){
-            socket.emit("check", localStorage.getItem("username"), localStorage.getItem("key"), true)
+        if(getCookie("username") && getCookie("key") && getCookie("dep")){
+            socket.emit("check", getCookie("username"), getCookie("key"), true)
         }
         else{
             window.location.href="dep.html"
@@ -84,7 +132,7 @@
             $("#unitsNewCall").append("<option id="+units[i].callsign+">"+units[i].callsign+"</option>")
             for(var b = 0; b<=maxId; b++){
                 var Abort = false;
-                var deployedUnits = sessionStorage.getItem(`call${b}.units`)
+                var deployedUnits = getCookie(`call${b}.units`)
                 var deployedUnitsArray = deployedUnits.split(",")
                 for(var c = 0; c<deployedUnitsArray.length; c++){
                     if(deployedUnitsArray[c] == units[i].callsign){
@@ -127,7 +175,7 @@
             var temp = calls[i].mainUnit.toString()
             var temp2 = temp.split("<li>")
             var toStorage = temp2.toString().split("</li>")
-            sessionStorage.setItem(`call${calls[i].callID}.units`, toStorage)
+            setCookie(`call${calls[i].callID}.units`, toStorage)
             var call = '<container id="call'+calls[i].callID+'"><li id="call">10-code: <container id="code">'+calls[i].Code10+'</container><container id="fullDes"> Description: <container id="description">'+calls[i].description+'</container></container><container id="fullCallStat"> Status: <container id="callStatusSelect"><select id="Call'+calls[i].callID+'status" onchange="callStatus('+calls[i].callID+')"><option disabled selected value="'+calls[i].status+'">'+calls[i].status+'</option><option value="none">none</option><option value="code 4">code 4</option></select> </container></container><container id="fullUnit"> units: <ul id="callUnit">'+newMainUnit+'</ul></container><img id="deleteCall" src="media/delete.png" onclick="deleteCall('+calls[i].callID+')"><container id="addUnitCont">Add Units To Call: <select id="addUnitSelect'+calls[i].callID+'" onchange=addUnit("'+calls[i].callID+'")><option id="start" selected hidden>Unit</select></container></li></container>'
             $("#calls").append(call)      
             if(i == calls.length -1){
@@ -153,6 +201,47 @@
         audio.play()
         document.getElementById("alert911").hidden = false
         latest911 = msg
+    })
+    socket.on("civInfo", (civ) => {
+        socket.emit("check", getCookie("username"), getCookie("key"), true)
+        $("#warrantsUL").empty()
+        $("#gunsUL").empty()
+        if(civ == false){
+            alert("No results")
+        }
+        else{
+            windowHandle("databaseInfo", false)
+            document.getElementById("firstnameInfo").innerHTML = civ.Firstname
+            document.getElementById("surnameInfo").innerHTML = civ.Surname
+            document.getElementById("birthDateInfo").innerHTML = civ.BirthDate
+            document.getElementById("buildTypeInfo").innerHTML = civ.Build
+            if(civ.license != ""){
+                document.getElementById("licensesInfo").innerHTML = civ.license
+                $("#changeLicenseSelect").append("<option selected hidden disabled value="+civ.license+">"+civ.license+"</option>")
+            }
+            else{
+                document.getElementById("licensesInfo").innerHTML = "none"
+                $("#changeLicenseSelect").append("<option selected hidden disabled value=none>none</option>")
+
+            }
+            if(civ.warrants == ""){
+
+                $("#warrantsUL").append("<li style='color:green;'>none</li>")
+            }
+            else{
+                for(var i = 0; i<civ.warrants.length; i++){
+                    $("#warrantsUL").append("<li style='color:red;'>Title: "+civ.warrants[i].title+" <br>Description: "+civ.warrants[i].description+"</li><br>")
+                }
+            }
+            if(civ.guns == ""){
+                $("#gunsUL").append("<li style='color:green;'>none</li>")
+            }
+            else{
+                civ.guns.forEach(gun => {
+                    $("#gunsUL").append(`<li style='color:orange;'>${gun.gunName} ID: ${gun.gunID}</li>`)
+                })
+            }
+        }
     })
     function callsign(callsign){
         var value = document.getElementById("statusSelect")
@@ -191,6 +280,13 @@
         else{
             view911()
         }
+    }
+    function PersonCheck(form){
+        form.preventDefault()
+        socket.emit("databaseSearch", $("#databaseFirstname").val(), $("#databaseSurname").val())
+    }
+    function windowHandle(window, action){
+       document.getElementById(window).hidden = action
     }
 </script>
 <style>
@@ -325,8 +421,65 @@
     overflow-y: scroll;
     overflow-x: hidden;
     }
+    #databases{
+        padding: 0;
+        position: relative;
+        display: block;
+        position: relative;
+        margin-top:200px;
+        left:50%;
+        margin-left:-500px;
+        width:1000px ;
+    }
+    #personDatabase{
+        float:left;
+    }
+    #VehicleDatabase{
+        float:left;
+    }
+    #databaseInfo{
+    background-color: white;
+    position: absolute;
+    left:35%;
+    padding:7%;
+    border-color: rgb(59, 119, 188);;
+    border-style:solid;
+    border-width:10px;
+    border-radius:0%;
+    bottom:10%;
+    text-align: center;
+}
+#ErrorNoCon{
+        position: absolute;
+        background-color: red;
+        width: 500px;
+        height: 150px;
+        border-width: 5px;
+        border:solid;
+        border-color: yellow;
+        left:50%;
+        top:50%;
+        margin-left:-250px;
+        margin-top:-75px;
+
+    }
+    #ErrorNoCon h1{
+        position: relative;
+        left: 50%;
+        width: 80px;
+        margin-left:-40px;
+    }
+    #ErrorNoCon p{
+        text-align: center;
+    }
+    
     ::-webkit-scrollbar{
         display:none;
+    }
+    .databaseContainers{
+        float:left;
+        width: 200px;
+        margin-left:200px;
     }
     body{
         -ms-overflow-style: none;
