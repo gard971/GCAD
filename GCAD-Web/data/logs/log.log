@@ -1716,3 +1716,46 @@
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
 [1.9.2022 @ 20:17] gardsoreng@gmail.com Just added department LSPD , to user test
 [1.9.2022 @ 20:17] Error: No recipients defined
+[1.3.2024 @ 3:17] ---------------
+[1.3.2024 @ 3:17] Server started
+[1.3.2024 @ 3:17] ---------------
+[1.3.2024 @ 4:28] -------------------------
+[1.3.2024 @ 4:28] server shutting down
+[1.3.2024 @ 4:28] -------------------------
+[5.3.2024 @ 2:00] ---------------
+[5.3.2024 @ 2:00] Server started
+[5.3.2024 @ 2:00] ---------------
+[5.3.2024 @ 2:00] UncaugthException: Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (C:\Users\gards\Desktop\GIT\GCAD\GCAD\GCAD-Web\node_modules\discord.js\src\client\websocket\WebSocketManager.js:135:26)
+    at Client.login (C:\Users\gards\Desktop\GIT\GCAD\GCAD\GCAD-Web\node_modules\discord.js\src\client\Client.js:221:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[5.3.2024 @ 2:18] user gardsoreng@gmail.com just added abc as admin
+[5.3.2024 @ 2:18] user gardsoreng@gmail.com just added test as admin
+[5.3.2024 @ 2:18] user gardsoreng@gmail.com just removed admin role from test
+[5.3.2024 @ 2:18] user gardsoreng@gmail.com just removed admin role from abc
+[5.3.2024 @ 2:19] gardsoreng@gmail.com Just added department LSPD , to user gardsoreng@gmail.com
+[5.3.2024 @ 2:19] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:19] gardsoreng@gmail.com Just removed department LSPD , from user gardsoreng@gmail.com
+[5.3.2024 @ 2:19] gardsoreng@gmail.com Just removed department civillian , from user gardsoreng@gmail.com
+[5.3.2024 @ 2:19] gardsoreng@gmail.com Just removed department SAHP , from user gardsoreng@gmail.com
+[5.3.2024 @ 2:19] gardsoreng@gmail.com Just removed department LSCS , from user gardsoreng@gmail.com
+[5.3.2024 @ 2:19] gardsoreng@gmail.com Just removed department communications , from user gardsoreng@gmail.com
+[5.3.2024 @ 2:20] gardsoreng@gmail.com Just added department LSPD , to user gardsoreng@gmail.com
+[5.3.2024 @ 2:20] gardsoreng@gmail.com Just added department civillian , to user gardsoreng@gmail.com
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:20] gardsoreng@gmail.com Just added department SAHP , to user gardsoreng@gmail.com
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:20] user gardsoreng@gmail.com just declined gardsoreng@gmail.com`s request to add department LSCS to their account 
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:20] user gardsoreng@gmail.com just declined gardsoreng@gmail.com`s request to add department LSCS to their account 
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:20] user gardsoreng@gmail.com just declined gardsoreng@gmail.com`s request to add department communications to their account 
+[5.3.2024 @ 2:20] sent mail to gardsoreng@gmail.com
+[5.3.2024 @ 2:21] user gardsoreng@gmail.com just removed admin role from gardsoreng@gmail.com

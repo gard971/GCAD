@@ -169,6 +169,21 @@
         <textarea id="texArea911" placeholder="Emergency description (location, whats happening)"></textarea><br><br>
         <button type="submit">send</button>
     </form>
+</container >
+
+<container id="contMessenger" hidden>
+    <img src="media/close.png" id="close" onclick="windowHandle('contMessenger', true)">
+    <img src="media/newChat.png" id="newChat">
+    <p>Chats:</p>
+    <hr>
+    
+    <ul id="incommingMessagesList">
+        <li>Gard Søreng</li>
+        <li>Leo Digranes</li>
+    </ul>
+</container>
+<container id="messengerIcon" onclick="windowHandle('contMessenger')">
+    <img src="media/mail.png">
 </container>
 </body>
 <footer>

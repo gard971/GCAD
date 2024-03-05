@@ -270,7 +270,20 @@ var callsignChange
     })
     function windowHandle(window, action){
        document.getElementById(window).hidden = action
+       if(action){
+        document.getElementById(window).style.zIndex="0"
+       } else{
+        document.getElementById(window).style.zIndex="+1"
+       }
     }
+    socket.on("Message", (messageArray) => {
+        messageArray.forEach(message => {
+            var newLI = document.createElement("li")
+            newLI.innerHTML = message.from;
+            console.log(newLI.innerHTML)
+            document.getElementById("incommingMessagesList").appendChild(newLI)
+        })
+    })
     function status(){
         var value = document.getElementById("statusSelect")
         var selectValue = value.options[value.selectedIndex].value
@@ -341,3 +354,11 @@ var callsignChange
         var gun = $("#gunTypeInput").val()
         socket.emit("newGun", gun, username, name)
     }
+(function(){
+    testArray = [
+        {from:"Leo", messages:["Hei", "hade"]},
+        {from:"Gard", messages:["hade", "hei"]},
+        {from:"din forpulte mamma"}
+    ]
+
+})();
