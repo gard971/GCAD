@@ -14,40 +14,12 @@
     </select><br>
     <button onclick="sendRequest()">Send Request</button>
 </container>
-<div id="ErrorNoCon" hidden>
-    <h1>Error!</h1>
-    <p>Could not establish connection with the server</p>
-    <p>Please try again later</p>
-</div>
 <style>
 html{
     background-image: url(media/normalBack.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-#ErrorNoCon{
-        position: absolute;
-        background-color: red;
-        width: 500px;
-        height: 150px;
-        border-width: 5px;
-        border:solid;
-        border-color: yellow;
-        left:50%;
-        top:50%;
-        margin-left:-250px;
-        margin-top:-75px;
-
-    }
-    #ErrorNoCon h1{
-        position: relative;
-        left: 50%;
-        width: 80px;
-        margin-left:-40px;
-    }
-    #ErrorNoCon p{
-        text-align: center;
-    }
 #depSelectContainer{
     background-color:rgb(191, 188, 188);
     padding:5%;
@@ -86,7 +58,12 @@ html{
   crossorigin="anonymous"></script>
 <script>
     $(function(){
-        check(true)
+        if(localStorage.getItem("username") && localStorage.getItem("key")){
+            socket.emit("check", localStorage.getItem("username"), localStorage.getItem("key"), true)
+        }
+        else{
+            window.location.href="index.html"
+        }
         var audio = document.getElementById("audio")
         audio.play()
     })
@@ -97,15 +74,15 @@ html{
             alert("please select a department first")
         }
         else if(selectValue == "communications"){
-            setCookie("dep", selectValue)
+            sessionStorage.setItem("dep", selectValue)
             window.location.href="dispatch.html"
         }
         else if(selectValue == "admin"){
-            setCookie("dep", selectValue)
+            sessionStorage.setItem("dep", selectValue)
             window.location.href="admin.html"
         }
         else{
-            setCookie("dep", selectValue)
+            sessionStorage.setItem("dep", selectValue)
             window.location.href="loggedin.html"
         }
     }
@@ -116,7 +93,7 @@ html{
             alert("Please select a department to request first")
         }
         else{
-            socket.emit("newDepRequest", getCookie("username"), selectValue)
+            socket.emit("newDepRequest", localStorage.getItem("username"), selectValue)
         }
     }
     socket.on("notAllowed", () => {

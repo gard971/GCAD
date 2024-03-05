@@ -1,6 +1,5 @@
 
 <div id="window">
-
 <link rel="stylesheet" href="index.css">
 <div id="topBar">
 <p>Log In</p>
@@ -18,7 +17,7 @@ This browser is not compatible with HTML5 canvas.
 </div>
 
 <nav>
-<p>Copyright &#169; 1985-2022</p>
+<p>Copyright &#169; 1985-2001</p>
 <p>Microsoft Corporation <span id="rightSpan">Microsoft</span></p>
 </nav>
 </div> <!-- end of logoArea -->
@@ -30,17 +29,10 @@ This browser is not compatible with HTML5 canvas.
 <p class="specialAlign" > Username :   <input id="username" type="text"></p>
 <p class="specialAlign" >Password:  &nbsp; <input id="password" type="password"></p>
 <button id="firstButton" type="submit">OK</button>
+<button type="button" onclick="ClearForm()">Cancel</button>
 <button type="button" onclick="window.location.href='register.html'">Register >></button>
-<button type="button" onclick="window.location.href='forgot.html'" id="forgotPassword">Forgot Password?</button><br>
-<label for="rememberme" id="remembermeLabel">Remember Password?</label>
-<input type="checkbox" id="rememberme">
 </form>
-</div> <!-- end of login window -->
-<div id="ErrorNoCon" hidden>
-    <h1>Error!</h1>
-    <p>Could not establish connection with the server</p>
-    <p>Please try again later</p>
-</div>
+
 <script src="script/md5.js"></script>
 <script src="/socket.io/socket.io.js"></script>
 <script
@@ -48,7 +40,6 @@ This browser is not compatible with HTML5 canvas.
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
 <script>
-    var rememberme = false
     window.addEventListener('load', eventWindowLoaded, false);
 
 function eventWindowLoaded() {
@@ -138,21 +129,12 @@ context.stroke();
         console.log(document.getElementById("password").value)
         var email = document.getElementById("username").value
         var password = MD5(document.getElementById("password").value)
-        
-        rememberme = document.getElementById("rememberme").checked
-            console.log("cheked="+document.getElementById("rememberme").checked)
         socket.emit("login", email, password)
     })
     socket.on("passwordCorrect", (username, key)=>{
-        var expdays = 0;
-        if(rememberme){
-            expdays = 7
-        } else
-        console.log(`expdays ${expdays}`)
-        setCookie("username", username, expdays)
-        setCookie("key", key, expdays)
+        localStorage.setItem("username", username)
+        localStorage.setItem("key", key)
         window.location.href="dep.html"
-        
     })
     socket.on("passwordWrong", () => {
         alert("passowrd Wrong")
@@ -161,18 +143,8 @@ context.stroke();
         document.getElementById("username").value = ""
         document.getElementById("password").value = ""
     }
-    window.addEventListener("DOMContentLoaded", () => {
-        var username = getCookie("username")
-        var key = getCookie("key")
-        if(username && key){
-            socket.emit("check", username, key, false)
-        }
-    })
-    socket.on("allowed", () => {
-        window.location.href="dep.html"
-    })
 </script>
 <script src="/script/public.js"></script>
 
-
+</div> <!-- end of window -->
 </body>

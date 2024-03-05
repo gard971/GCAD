@@ -1,16 +1,11 @@
-const fs = require("fs");
+
 const main = require(__dirname + "/index.js")
 const app = require("express")();
-var options = {
-    key: fs.readFileSync('httpsFiles/private.key'),
-    cert: fs.readFileSync('httpsFiles/certificate.crt'),
-    ca: fs.readFileSync('httpsFiles/ca_bundle.crt')
-  };
-const https = require("https").createServer(options, app)
-const io = require("socket.io")(https)
+const http = require("http").createServer(app)
+const io = require("socket.io")(http)
 const path = require("path")
 const express = require("express")
-
+const fs = require("fs");
 const {
     jsonRead,
     jsonWrite,
@@ -19,7 +14,6 @@ const {
 } = require(".");
 const bcrypt = require("bcrypt");
 const { Socket } = require("dgram");
-const { query } = require("express");
 var calls = main.calls
 
 
@@ -171,16 +165,6 @@ function request(req, res) {
         main.createCall(newObject)
         main.panicNoise()
         res.send("panic Transmitted")
-    } else if(action == "login"){
-        if(!req.query.userPassword || !req.query.username){
-            res.send("missing password")
-        } else {
-            console.log(req.query.username)
-            console.log(req.query.userPassword)
-            var correctPass = main.login(req.query.username, MD5(req.query.userPassword), false, false)
-            res.send(correctPass)
-            res.end()
-        }
     }
 }
 //MD5

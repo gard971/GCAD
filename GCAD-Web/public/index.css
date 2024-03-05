@@ -52,7 +52,7 @@ html {
     font-size:2em;
      margin-left: -10px;
      margin-right: -10px;
-     margin-top :10px;
+     margin-top -10px;
      margin-bottom: -10px;
      font-weight:bold;
      color:#EFF3FD;
@@ -97,46 +97,7 @@ html {
     height:9px;
     margin-top:-11px;
     }
-    #ErrorNoCon{
-        position: absolute;
-        background-color: red;
-        width: 500px;
-        height: 150px;
-        border-width: 5px;
-        border:solid;
-        border-color: yellow;
-        left:50%;
-        top:50%;
-        margin-left:-250px;
-        margin-top:-75px;
-
-    }
-    #ErrorNoCon h1{
-        position: relative;
-        left: 50%;
-        width: 80px;
-        margin-left:-40px;
-    }
-    #ErrorNoCon p{
-        text-align: center;
-    }
-    #forgotPassword{
-        position: relative;
-        top: -7px;
-    }
-    #rememberme
-    {
-        position: relative;
-        bottom:7px;
-        width: 20px;
-    }
-    #remembermeLabel{
-        position: relative;
-        bottom:7px;
-        margin-left: 150px;
-        font-size: small;
-        padding-bottom: 0px;
-    }
+    
     form {
      background-color:#ECE9D8;
      margin-top:-16px;
@@ -163,11 +124,10 @@ html {
     margin-left:10px;
     border-radius:5%;
     width:95px;
-    height: 35px;
     }
     
     #firstButton{
-    margin-left:70px;
+    margin-left:120px;
     }
     
     button:hover {

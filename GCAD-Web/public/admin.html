@@ -9,11 +9,6 @@
     <label>Requests:</label>
     <ul id="requestsUL">None</ul>
 </container>
-<div id="ErrorNoCon" hidden>
-    <h1>Error!</h1>
-    <p>Could not establish connection with the server</p>
-    <p>Please try again later</p>
-</div>
 <script src="/socket.io/socket.io.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.4.1.js"
@@ -24,11 +19,11 @@
     var addingAdmin;
     var removingAdmin;
     $(function() {
-        if(getCookie("dep") != "admin"){
+        if(sessionStorage.getItem("dep") != "admin"){
             window.location.href="index.html"
         }
         else{
-            socket.emit("check", getCookie("username"), getCookie("key"), true)
+            socket.emit("check", localStorage.getItem("username"), localStorage.getItem("key"), true)
         }
     })
     socket.on("deps", (array) => {
@@ -37,16 +32,18 @@
                 socket.emit("requestAllUsers")
                 socket.emit("getRequests")
                 if(addingAdmin){
-                    socket.emit("newAdmin", addingAdmin[1], getCookie("username"))
+                    socket.emit("newAdmin", addingAdmin[1], localStorage.getItem("username"))
                     window.location.reload()
                 }
                 else if(removingAdmin){
-                    socket.emit("removeAdmin", removingAdmin[1], getCookie("username"))
+                    socket.emit("removeAdmin", removingAdmin[1], localStorage.getItem("username"))
                     window.location.reload()
                 }
                 return false;
             }
         }
+        sessionStorage.clear()
+        localStorage.clear()
         window.location.href="index.html"
     })
     socket.on("notAllowed", () => {
@@ -84,7 +81,7 @@
         var requestId = 0
         requests.forEach(request => {
             $("#requestsUL").append(`<li id=requestNBR${requestId}>User ${request.username} requested department ${request.requestedDepartment} <button onclick="decline(${requestId})">Decline</button><button onclick="accept(${requestId})">Accept</button></li>`)
-            setCookie(`requestNBR${requestId}INFO`, JSON.stringify({"username":request.username, "department":request.requestedDepartment}))
+            sessionStorage.setItem(`requestNBR${requestId}INFO`, JSON.stringify({"username":request.username, "department":request.requestedDepartment}))
             requestId++
         })
     })
@@ -105,7 +102,7 @@
             var value = document.getElementById(name+"RemoveDepSelect")
             var selectValue = value.options[value.selectedIndex].id
             socket.emit("removeDep", selectValue, name)
-            socket.emit("log", getCookie("username")+" Just removed department "+selectValue+" , from user "+name)
+            socket.emit("log", localStorage.getItem("username")+" Just removed department "+selectValue+" , from user "+name)
             window.location.reload()
         }
     }
@@ -116,19 +113,19 @@
             dep = value.options[value.selectedIndex].id
             }
             socket.emit("addDep", dep, name)
-            socket.emit("log", getCookie("username")+" Just added department "+dep+" , to user "+name)
+            socket.emit("log", localStorage.getItem("username")+" Just added department "+dep+" , to user "+name)
             window.location.reload()
         }
     }
     function decline(requestId){
         if(confirm("Are you sure? all actions are logged")){
-            var info = JSON.parse(getCookie(`requestNBR${requestId}INFO`))
+            var info = JSON.parse(sessionStorage.getItem(`requestNBR${requestId}INFO`))
             socket.emit("removeRequest", info.username, info.department, false)
-            socket.emit("log", `user ${getCookie("username")} just declined ${info.username}\`s request to add department ${info.department} to their account `)
+            socket.emit("log", `user ${localStorage.getItem("username")} just declined ${info.username}\`s request to add department ${info.department} to their account `)
         }
     }
     function accept(requestId){
-        var info = JSON.parse(getCookie(`requestNBR${requestId}INFO`))
+        var info = JSON.parse(sessionStorage.getItem(`requestNBR${requestId}INFO`))
         addDep(info.username, info.department)
         socket.emit("removeRequest", info.username, info.department, true)
     }
@@ -217,28 +214,5 @@
         border-left:none;
         border-right:none;
         border-top:none;
-    }    
-    #ErrorNoCon{
-        position: absolute;
-        background-color: red;
-        width: 500px;
-        height: 150px;
-        border-width: 5px;
-        border:solid;
-        border-color: yellow;
-        left:50%;
-        top:50%;
-        margin-left:-250px;
-        margin-top:-75px;
-
-    }
-    #ErrorNoCon h1{
-        position: relative;
-        left: 50%;
-        width: 80px;
-        margin-left:-40px;
-    }
-    #ErrorNoCon p{
-        text-align: center;
     }
 </style>

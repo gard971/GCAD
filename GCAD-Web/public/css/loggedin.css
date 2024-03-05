@@ -369,29 +369,6 @@ input{
     position: absolute;
     left:46%;
 }
-#ErrorNoCon{
-    position: absolute;
-    background-color: red;
-    width: 500px;
-    height: 150px;
-    border-width: 5px;
-    border:solid;
-    border-color: yellow;
-    left:50%;
-    top:50%;
-    margin-left:-250px;
-    margin-top:-75px;
-
-}
-#ErrorNoCon h1{
-    position: relative;
-    left: 50%;
-    width: 80px;
-    margin-left:-40px;
-}
-#ErrorNoCon p{
-    text-align: center;
-}
 ::placeholder{
     text-align: center;
 }
